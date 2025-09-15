@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon parcours vers le dev - Eagle Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro-screen" id="introScreen">
+        <h1 class="game-title">🦅 Mon parcours vers le dev</h1>
+        <button onclick="startGame()">START</button>
+    </div>
+
+    <div class="progress-bar">
+        <div id="progress" class="progress"></div>
+    </div>
+
+    <div class="game-container" id="gameContainer" style="display: none;">
+        <div class="level-display">
+            <img id="aigle" src="aigle.gif" alt="aigle" class="aigle-run" />
+            <img id="obstacle" src="obstacle.png" class="obstacle" />
+            <img id="arrivee" src="arrivee.png" class="finish-line" />
+        </div>
+
+        <div class="level-info" id="levelInfo">
+            <h2 id="levelTitle">Level 1 : Le départ</h2>
+            <p id="levelText">J’ai découvert l’informatique au lycée, et c’est là que mon envie de coder est née.</p>
+            <button id="nextButton" onclick="nextLevel()">Niveau suivant</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
