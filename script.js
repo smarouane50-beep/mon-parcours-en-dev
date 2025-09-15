@@ -24,7 +24,7 @@ const levels = [
     text: "Nouvelle rentrée, même objectif : passer en parcours Développement. Même si je n’ai pas validé cette compétence l’an dernier, j’ai progressé. J’ai rebondi, appris, et je suis revenu plus motivé que jamais. Je suis prêt à affronter le boss final."
   },
   {
-    title: "Level 7 : Objectif : Master et ciel international",
+    title: "Level 7 : Master et ciel international",
     text: "Ce jeu n’est pas fini. Je vise un Master en dev ou data, et un VIE à l’étranger pour repousser mes limites. Je veux continuer à apprendre, à créer, à voyager. Ce parcours en dev n’est pas juste un souhait, c’est une étape logique dans mon plan de vol."
   }
 ];
