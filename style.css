@@ -110,6 +110,24 @@ button {
     line-height: 1.6em;
 }
 
+.rules {
+  margin: 8px 0 0;
+  color: #fff;            /* lisible sur l’overlay sombre de l’intro */
+  opacity: 0.95;
+}
+.rules kbd {
+  background: rgba(255,255,255,0.15);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.rules-hint {
+  margin: 6px auto 0;
+  font-size: 0.95em;
+  color: #333;
+  opacity: 0.85;
+}
 
 
 
